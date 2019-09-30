@@ -55,32 +55,33 @@
   };
 </script>
 
-  <meta name="description" content="记录平时的代码和所见所想">
-<meta name="keywords" content="C++;Python;进化算法">
-<meta property="og:type" content="website">
-<meta property="og:title" content="HanZhang_HFUT">
-<meta property="og:url" content="https://hanzhang1995.github.io/index.html">
+  <meta name="description" content="Hello world  黑体: Hello world   STCAIYUN: hello world   Terminal: Hello world   Consolas: Hello world    Consolas,2,#DC143C: Hello world   Consolas,2,(220, 20, 60">
+<meta name="keywords" content="NSGA_II">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NSGA_II_Scheduling">
+<meta property="og:url" content="https://hanzhang1995.github.io/2019/09/30/NSGA-II-Scheduling/index.html">
 <meta property="og:site_name" content="HanZhang_HFUT">
-<meta property="og:description" content="记录平时的代码和所见所想">
+<meta property="og:description" content="Hello world  黑体: Hello world   STCAIYUN: hello world   Terminal: Hello world   Consolas: Hello world    Consolas,2,#DC143C: Hello world   Consolas,2,(220, 20, 60">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:updated_time" content="2019-09-30T14:27:14.359Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HanZhang_HFUT">
-<meta name="twitter:description" content="记录平时的代码和所见所想">
-  <link rel="canonical" href="https://hanzhang1995.github.io/">
+<meta name="twitter:title" content="NSGA_II_Scheduling">
+<meta name="twitter:description" content="Hello world  黑体: Hello world   STCAIYUN: hello world   Terminal: Hello world   Consolas: Hello world    Consolas,2,#DC143C: Hello world   Consolas,2,(220, 20, 60">
+  <link rel="canonical" href="https://hanzhang1995.github.io/2019/09/30/NSGA-II-Scheduling/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>HanZhang_HFUT</title>
+  <title>NSGA_II_Scheduling | HanZhang_HFUT</title>
   
 
 
@@ -193,12 +194,13 @@
 
           <div id="content" class="content">
             
+
   <div id="posts" class="posts-expand">
-        <article itemscope itemtype="http://schema.org/Article">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block home">
+  <div class="post-block post">
     <link itemprop="mainEntityOfPage" href="https://hanzhang1995.github.io/2019/09/30/NSGA-II-Scheduling/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -211,9 +213,8 @@
       <meta itemprop="name" content="HanZhang_HFUT">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/30/NSGA-II-Scheduling/" class="post-title-link" itemprop="url">NSGA_II_Scheduling</a>
+        <h1 class="post-title" itemprop="name headline">NSGA_II_Scheduling
+
           
         </h1>
 
@@ -247,7 +248,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <form action='https://dictionary.cambridge.org/zhs/%E6%90%9C%E7%B4%A2/%E8%8B%B1%E5%BC%8F%E8%8B%B1%E8%AF%AD/direct/?utm_source=widget_searchbox_source&utm_medium=widget_searchbox&utm_campaign=widget_tracking' method='post'> 
+        <form action='https://dictionary.cambridge.org/zhs/%E6%90%9C%E7%B4%A2/%E8%8B%B1%E5%BC%8F%E8%8B%B1%E8%AF%AD/direct/?utm_source=widget_searchbox_source&utm_medium=widget_searchbox&utm_campaign=widget_tracking' method='post'> 
 <table style='font-size:10px;background:#292929;border-collapse:collapse;border-spacing:0;width:100px;' > 
 <tbody> 
 <tr> 
@@ -310,31 +311,43 @@
 \end{cases}
 \tag{3}</script><p>$$</p>
 
-        
-      
     </div>
 
     
     
     
-      <footer class="post-footer">
-          <div class="post-eof"></div>
         
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/NSGA-II/" rel="tag"># NSGA_II</a>
+            
+          </div>
+        
+
+        
+
       </footer>
+    
   </div>
   
   
   
   </article>
 
-    
   </div>
-
-  
 
 
           </div>
           
+    
+    <div class="comments" id="gitalk-container"></div>
+  
 
         </div>
           
@@ -349,6 +362,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -521,15 +539,29 @@ window.addEventListener('pjax:success', () => {
   
 
   
-    
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: '[object Object]',
+      clientSecret: '[object Object]',
+      repo: 'hanzhang1995.github.io',
+      owner: 'hanzhang3411',
+      admin: ['HanZhang'],
+      id: '4d8b9a922989920d6539af4062fa930d',
+        language: 'zh-CN',
       
-    
-  
-
-  
-
-  
-
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
 
     </div>
 </body>
